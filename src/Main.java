@@ -27,3 +27,11 @@ public class Student extends Person {
         System.out.println("My name is Student");
     }
 }
+
+public class Lec extends Person {
+    private int id;
+    @Override
+    public void name(){
+        System.out.println("My name is lecturer");
+    }
+}
